@@ -4,7 +4,7 @@ import Cart from '../Cart/Cart';
 import Modal from 'react-modal';
 import './Shop.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClose, faXmark, faXmarkCircle } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faXmarkCircle } from '@fortawesome/free-solid-svg-icons';
 
 const customStyles = {
     content: {
