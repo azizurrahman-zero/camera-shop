@@ -28,4 +28,7 @@
     .shop{
         grid-template-columns: 1fr;
     }
+    .alert-text{
+        font-size: 14px;
+    }
 }
