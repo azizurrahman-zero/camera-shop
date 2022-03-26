@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+.alert-icon{
+    color: #FF6B6B;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+.close-button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+}
+.alert-text{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .shop{
     display: grid;
     grid-template-columns: 4fr 1fr;
