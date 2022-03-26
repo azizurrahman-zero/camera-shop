@@ -39,6 +39,7 @@
     font-size: 18px;
 }
 
+
 @media only screen and (max-width: 576px){
     .main-section{
         grid-template-columns: 1fr;
