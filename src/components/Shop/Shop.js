@@ -10,11 +10,33 @@ const Shop = () => {
         const totalCart = [...cart, camera];
         setCart(totalCart);
     }
+
+    const clearCart = () => {
+        setCart([]);
+        setRandom([])
+    }
+
+
+    let cameraNames = [];
+    cart.map(camera => {
+        cameraNames.push(camera.name);
+        return cameraNames;
+    })
+    const [random, setRandom] = useState([]);
+    const chooseOne = () => {
+        var randomItem = cameraNames[Math.floor(Math.random() * cameraNames.length)];
+        setRandom(randomItem);
+    }
+
+
     return (
         <div className='shop'>
             <Cameras addToCart={addToCart}></Cameras>
             <Cart
                 cart={cart}
+                clearCart={clearCart}
+                chooseOne={chooseOne}
+                random={random}
             ></Cart>
         </div>
     );

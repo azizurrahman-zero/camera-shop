@@ -1,16 +1,5 @@
-import React, { useState } from 'react';
-const Cart = ({ cart }) => {
-    let cameraNames = [];
-    cart.map(camera => {
-        cameraNames.push(camera.name);
-        return cameraNames;
-    })
-    const [random, setRandom] = useState([]);
-    const chooseOne = () => {
-        var randomItem = cameraNames[Math.floor(Math.random() * cameraNames.length)];
-        setRandom(randomItem);
-
-    }
+import React from 'react';
+const Cart = ({ cart, clearCart, chooseOne, random }) => {
 
     return (
         <div>
@@ -22,11 +11,9 @@ const Cart = ({ cart }) => {
                     </div>
                 )
             }
-            {
-
-            }
             <button onClick={chooseOne}>Choose one</button>
             <p>{random}</p>
+            <button onClick={clearCart}>Choose Again</button>
         </div>
     );
 };
