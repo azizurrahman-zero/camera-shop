@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+.theory-section{
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+    margin: 30px auto;
+    background-color: #F4F6F8;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.theory-section h3{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.theory-section p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.table{
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+.table thead th{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #637381;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.table tbody td{
+    padding: 10px 30px;
+    border-bottom: 0.1px solid #C4CDD5;
+    font-weight: 400;
+    font-size: 18px;
+}
