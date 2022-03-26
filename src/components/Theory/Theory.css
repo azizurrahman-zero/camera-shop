@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
 
+.main-section{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
 .theory-section{
     font-family: 'Roboto', sans-serif;
     width: 85%;
@@ -7,6 +11,7 @@
     background-color: #F4F6F8;
     padding: 20px 30px;
     border-radius: 20px;
+    
 }
 .theory-section h3{
     font-size: 26px;
@@ -32,4 +37,22 @@
     border-bottom: 0.1px solid #C4CDD5;
     font-weight: 400;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 576px){
+    .main-section{
+        grid-template-columns: 1fr;
+    }
+    .theory-section{
+        width: unset;
+        margin: 30px auto 0;
+        padding: 20px 25px;
+        border-radius: 0;
+    }
+    .table thead th{
+        padding: 10px 0;
+    }
+    .table tbody td{
+        padding: 10px;
+    }
 }

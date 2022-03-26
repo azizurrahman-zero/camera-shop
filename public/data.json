@@ -44,31 +44,13 @@
     {
         "id": "623ddae0c99852c8f402294e",
         "name": "Panasonic Lumix G85",
-        "price": 6000,
+        "price": 60000,
         "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
     },
     {
         "id": "623ddae0fc6ec99b95e6961a",
-        "name": "Mccray",
-        "price": 81621,
-        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
-    },
-    {
-        "id": "623ddae05ea61e39102d5745",
-        "name": "Cook",
-        "price": 75983,
-        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
-    },
-    {
-        "id": "623ddae0b8db4c0a26e1c260",
-        "name": "Karen",
-        "price": 57044,
-        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
-    },
-    {
-        "id": "623ddae045cc93a032b8054b",
-        "name": "Jeanne",
-        "price": 22596,
-        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+        "name": "Alpha A6400",
+        "price": 86000,
+        "picture": "https://i.ibb.co/dpBrMK8/Alpha-A6400.jpg"
     }
 ]

@@ -1,18 +1,22 @@
 import React from 'react';
+import './Cart.css'
 const Cart = ({ cart, clearCart, chooseOne, random }) => {
 
     return (
-        <div>
-            <h1>Selected Cloths</h1>
-            {
-                cart.map(camera =>
-                    <div key={camera.id}>
-                        <h4>{camera.name}</h4>
-                    </div>
-                )
-            }
+        <div className='cart'>
+            <h3>Selected Cameras</h3>
+            <div className='carts'>
+                {
+                    cart.map(camera =>
+                        <div className='cart-camera' key={camera.id}>
+                            <img src={camera.picture} alt="" />
+                            <p>{camera.name}</p>
+                        </div>
+                    )
+                }
+            </div>
             <button onClick={chooseOne}>Choose one</button>
-            <p>{random}</p>
+            <p className='random'>{random}</p>
             <button onClick={clearCart}>Choose Again</button>
         </div>
     );
