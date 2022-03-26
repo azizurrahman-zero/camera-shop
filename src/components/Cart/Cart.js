@@ -9,13 +9,13 @@ const Cart = ({ cart, clearCart, chooseOne, random }) => {
                 {
                     cart.map(camera =>
                         <div className='cart-camera' key={camera.id}>
-                            <img src={camera.picture} alt="" />
+                            <img src={camera.picture} alt={camera.name} />
                             <p>{camera.name}</p>
                         </div>
                     )
                 }
             </div>
-            <button onClick={chooseOne}>Choose one</button>
+            <button onClick={chooseOne}>Choose One</button>
             <p className='random'>{random}</p>
             <button onClick={clearCart}>Choose Again</button>
         </div>
