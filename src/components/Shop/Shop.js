@@ -69,7 +69,7 @@ const Shop = () => {
             >
                 <h1 className='alert-icon'><FontAwesomeIcon icon={faXmarkCircle} /></h1>
                 <button onClick={closeModal} className='close-button'><FontAwesomeIcon icon={faXmark} /></button>
-                <h3 className='alert-text'>You can't add more than four item in cart.</h3>
+                <h3 className='alert-text'>You can't add more than four items to the cart.</h3>
             </Modal>
             <div className='shop'>
                 <Cameras
