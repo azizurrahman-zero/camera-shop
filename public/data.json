@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623ddae05e251e47f21117b3",
+        "name": "Canon 2000D",
+        "price": 43080,
+        "picture": "https://i.ibb.co/cwg87Vs/Canon2000-D.jpg"
+    },
+    {
+        "id": "623ddae081a5a0ceab6699aa",
+        "name": "Panasonic Lumix G7",
+        "price": 63000,
+        "picture": "https://i.ibb.co/1QtTpsV/LumixG7.jpg"
+    },
+    {
+        "id": "623ddae07c1e69fa4665c74e",
+        "name": "Alpha a7R",
+        "price": 62900,
+        "picture": "https://i.ibb.co/9NSkkbW/Alphaa7R.jpg"
+    },
+    {
+        "id": "623ddae00ee16f803a13ba1b",
+        "name": "Nikon D3500",
+        "price": 45000,
+        "picture": "https://i.ibb.co/vQspm5S/Nikon-D3500.jpg"
+    },
+    {
+        "id": "623ddae067aec7b9805f9847",
+        "name": "Nikon D5600",
+        "price": 69000,
+        "picture": "https://i.ibb.co/BZpbpfP/Nikon-D5600.jpg"
+    },
+    {
+        "id": "623ddae0ff534784d4190981",
+        "name": "Alpha A6000",
+        "price": 74800,
+        "picture": "https://i.ibb.co/n8B1FJB/Alpha-A6000.jpg"
+    },
+    {
+        "id": "623ddae06b0221dced15b1e3",
+        "name": "Nikon D750",
+        "price": 99000,
+        "picture": "https://i.ibb.co/yB51KRF/Nikon-D750.jpg"
+    },
+    {
+        "id": "623ddae0c99852c8f402294e",
+        "name": "Panasonic Lumix G85",
+        "price": 6000,
+        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+    },
+    {
+        "id": "623ddae0fc6ec99b95e6961a",
+        "name": "Mccray",
+        "price": 81621,
+        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+    },
+    {
+        "id": "623ddae05ea61e39102d5745",
+        "name": "Cook",
+        "price": 75983,
+        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+    },
+    {
+        "id": "623ddae0b8db4c0a26e1c260",
+        "name": "Karen",
+        "price": 57044,
+        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+    },
+    {
+        "id": "623ddae045cc93a032b8054b",
+        "name": "Jeanne",
+        "price": 22596,
+        "picture": "https://i.ibb.co/xSRLpss/LumixG85.jpg"
+    }
+]
