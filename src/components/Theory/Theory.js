@@ -5,7 +5,7 @@ const Theory = () => {
     return (
         <div className='theory-section'>
             <h3>How React works?</h3>
-            <p>React is an open-source JavaScript library. It is also component-based. When we create components, React creates a Virtual DOM. If we make a change to any component, React again creates a Virtual Dom. Then React compare the new Virtual DOM to the old Virtual DOM. If React finds any change, it just updates the changes of components to actual DOM.</p>
+            <p>React is an open-source JavaScript library. It is also component-based. When we create components, React creates a Virtual DOM. If we make a change to any component, React again creates a Virtual Dom. Then React compare the new Virtual DOM to the old Virtual DOM. If React finds any change, it just updates the changes of components to actual DOM. Thus react works.</p>
 
             <h3>What is the Difference Between Props and State?</h3>
             <p>In React, Props are used to pass data between components. It is short form of 'properties'. On the other hand, State is a build-in object of React, that can create and manage data in components.The difference between Props and State are:</p>
